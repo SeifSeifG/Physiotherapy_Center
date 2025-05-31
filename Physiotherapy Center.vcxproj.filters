@@ -13,5 +13,144 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Treatments">
+      <UniqueIdentifier>{bf50ab0c-621d-4c53-96a5-e7d1f9b3c3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{c15ede1d-1aa9-4676-a6f7-41d8d35c955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT%27s and Implementations">
+      <UniqueIdentifier>{bed72929-28ce-4c18-9799-077ae431e078}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="EarlyPlist.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="EU_WaitList.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="priNode.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="priQueue.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="StackADT.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="TreatmentList.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="X_WaitList.h">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="Edevice.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GymRoom.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Udevice.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Treatment.h">
+      <Filter>Header Files\Treatments</Filter>
+    </ClInclude>
+    <ClInclude Include="Treatment.h">
+      <Filter>Header Files\Treatments</Filter>
+    </ClInclude>
+    <ClInclude Include="U_Treatment.h">
+      <Filter>Header Files\Treatments</Filter>
+    </ClInclude>
+    <ClInclude Include="X_Treatment.h">
+      <Filter>Header Files\Treatments</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedular.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EarlyPlist.cpp">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="EU_WaitList.cpp">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="TreatmentList.cpp">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="X_WaitList.cpp">
+      <Filter>Header Files\ADT%27s and Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Edevice.cpp">
+      <Filter>Header Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GymRoom.cpp">
+      <Filter>Header Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Header Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Udevice.cpp">
+      <Filter>Header Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Treatment.cpp">
+      <Filter>Header Files\Treatments</Filter>
+    </ClCompile>
+    <ClCompile Include="Treatment.cpp">
+      <Filter>Header Files\Treatments</Filter>
+    </ClCompile>
+    <ClCompile Include="U_Treatment.cpp">
+      <Filter>Header Files\Treatments</Filter>
+    </ClCompile>
+    <ClCompile Include="X_Treatment.cpp">
+      <Filter>Header Files\Treatments</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
