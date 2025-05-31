@@ -19,8 +19,8 @@
  * @include <iostream>    >>> Header file for input/output stream for print functionalities.
  * @brief Includes necessary headers for the EarlyPlist class.
  */
-#include "priQueue.h"
 class Patient;
+#include "priQueue.h"
 #include <random>
 #include <iostream>
 using namespace std;

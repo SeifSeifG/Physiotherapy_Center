@@ -56,7 +56,7 @@ void UI::DisplaySystemStatus(const Schedular& mySchedular)
 
 }
 
-void UI::displayFinalPatient(const Schedular& mySchedular)
+void UI::DisplayFinalPatient(const Schedular& mySchedular)
 {
 	ArrayStack<Patient* >copy = mySchedular.getFinishedPatients();
 
@@ -78,7 +78,7 @@ void UI::displayFinalPatient(const Schedular& mySchedular)
 	}
 }
 
-void UI::displayHistory(const Schedular& mySchedular)
+void UI::DisplayHistory(const Schedular& mySchedular)
 {
 	LinkedQueue<Patient*> history = mySchedular.getHistory(); // or getHistory(), depending on implementation
 	Patient* p = nullptr;

@@ -1,7 +1,7 @@
 #include "E_Treatment.h"
 #include "Schedular.h"  // Full definition of Schedular now available
 
-E_treatment::E_treatment() : Treatment() { type = U_THERAPY; }
+E_treatment::E_treatment() : Treatment() { type = E_THERAPY; }
 
 E_treatment::E_treatment(int d) : Treatment(d, E_THERAPY) { type = E_THERAPY;}
 

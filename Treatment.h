@@ -1,3 +1,14 @@
+/**
+ * @file Treatment.h
+ * @brief Abstract base class representing generic medical treatments.
+ *
+ * Defines the Treatment class that manages treatment duration, resource assignment,
+ * timing, and treatment type. This class serves as a base for specific treatment
+ * types and includes interfaces for resource assignment and patient queue management.
+ *
+ * @author Abdelrahman Samir
+ * @date March 2025
+ */
 #pragma once
 #include <iostream>
 using namespace std;
@@ -6,17 +17,10 @@ class Resource;  // Forward declaration
 class Schedular; // Forward declaration
 class Patient;   // Forward declaration
 
-/** @enum Type
+/** @enum TreatmentType
     Represents the type of treatment a patient may receive. */
 enum TreatmentType { E_THERAPY, U_THERAPY, X_THERAPY, DUMMY_THERAPY};
 
-/**
- * @class Treatment
- * @brief Abstract base class representing a generic treatment.
- *
- * Each treatment has a duration, may be assigned a resource, and tracks assignment and finish times.
- * This class is intended to be subclassed for specific types of therapies.
- */
 class Treatment
 {
 protected:

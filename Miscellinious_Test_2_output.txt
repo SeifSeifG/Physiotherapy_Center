@@ -1,63 +1,56 @@
-PID  PType  PT  VT  FT  WT  TT  Cancel  Resc
-141    N    202   201   206   2    3    F      T
-138    R    188   196   204   5    3    F      T
-154    R    191   188   196   4    5    F      F
-130    R    178   178   193   0    15    F      T
-153    R    186   187   192   1    5    F      F
-125    N    162   164   191   8    13    F      T
-135    N    189   188   190   1    1    T      T
-152    N    186   183   188   3    2    F      F
-128    R    176   169   185   7    4    T      T
-151    N    183   182   185   1    2    F      F
-149    N    181   181   185   1    3    F      F
-148    N    179   179   181   0    1    F      F
-145    N    166   167   169   0    2    F      F
-144    N    164   164   166   0    2    F      F
-121    N    146   144   165   7    9    F      T
-124    R    154   154   164   0    10    F      T
-119    N    139   136   164   20    24    F      T
-143    N    155   155   158   0    3    F      F
-118    R    134   127   157   18    19    F      T
-142    R    147   148   150   0    2    F      F
-120    R    136   139   150   1    10    F      T
-117    N    129   125   145   5    5    F      T
-113    N    117   116   135   11    15    F      T
-139    R    127   129   132   1    2    T      F
-108    R    106   103   132   13    24    T      T
-111    N    106   105   132   16    16    F      T
-109    N    107   99   123   18    16    F      T
-136    R    117   119   122   1    2    F      F
-112    R    109   107   118   3    8    T      T
-107    N    89   95   118   12    14    F      T
-110    R    102   99   118   9    16    F      T
-106    R    100   99   117   2    8    F      T
-133    N    107   105   109   2    2    F      F
-103    N    87   84   101   9    9    T      T
-104    R    95   87   100   8    3    T      T
-129    N    74   68   92   8    4    F      F
-101    N    79   78   85   3    2    T      T
-126    R    68   61   84   8    11    F      F
-132    R    78   79   80   0    1    F      F
-127    N    70   63   80   7    9    F      F
-122    R    60   53   78   14    8    T      F
-131    N    72   74   77   2    2    F      F
-123    N    62   55   76   8    9    F      F
-116    R    47   42   63   9    14    F      F
-115    N    45   40   63   14    15    F      F
-114    R    42   37   52   5    10    F      F
-105    N    20   15   32   5    1    T      F
-102    R    12   6   24   6    2    F      F
+PID   PType   PT    VT    FT    WT    TT    Cancel   Resc  
+150   R       237   239   241   1     1     F        F     
+149   N       235   236   238   0     2     F        F     
+128   R       219   210   238   12    13    F        T     
+130   R       221   219   236   2     15    F        T     
+136   N       233   232   234   1     1     F        T     
+147   N       224   225   233   4     7     F        F     
+129   N       211   210   229   5     5     F        T     
+146   N       222   222   225   0     3     F        F     
+145   R       222   220   224   2     2     T        F     
+144   R       201   205   215   6     8     F        F     
+125   N       194   193   214   6     8     T        T     
+127   N       201   201   211   0     2     F        T     
+126   R       177   183   192   3     1     T        T     
+124   R       174   177   188   1     10    F        T     
+143   R       184   184   184   0     0     T        F     
+123   N       166   174   184   4     5     T        T     
+122   R       164   165   183   1     10    T        T     
+121   N       157   162   183   9     14    F        T     
+118   R       154   146   177   10    10    F        T     
+120   R       147   154   167   3     4     F        T     
+115   N       139   143   163   4     9     F        T     
+140   R       155   157   162   1     4     F        F     
+114   R       131   136   149   2     3     F        T     
+113   N       122   126   146   15    18    F        T     
+111   N       118   117   143   12    14    F        T     
+139   R       129   130   134   1     2     F        F     
+108   R       105   100   130   15    11    T        T     
+110   R       111   108   127   7     14    F        T     
+107   N       97    99    120   12    16    F        T     
+109   N       103   104   120   10    16    F        T     
+105   N       94    89    114   17    20    F        T     
+103   N       87    85    111   10    18    F        T     
+106   R       95    96    108   2     10    T        T     
+102   R       74    83    99    4     12    F        T     
+119   N       54    49    79    16    12    F        F     
+133   R       73    74    75    0     1     F        F     
+117   N       50    45    66    10    6     F        F     
+116   R       47    42    63    7     12    F        F     
+112   R       37    32    57    9     16    F        F     
+104   R       18    13    33    10    15    F        F     
+101   N       10    5     25    6     11    F        F     
 
-Total number of timesteps = 206
-Total number of all, N, and R patients = 48, 26, 22
-Average total waiting time for all, N, and R patients = 1.34951, 0.791262, 0.558252
-Average total treatment time for all, N, and R patients = 1.7767, 0.893204, 0.883495
-Percentage of patients of an accepted cancellation (%) = 20.8333 %
-Percentage of patients of an accepted rescheduling (%) = 47.9167 %
-Percentage of early patients (%) = 77.0833 %
-Percentage of late patients (%) = 22.9167 %
+Total number of timesteps = 241
+Total number of all, N, and R patients = 41, 19, 22
+Average total waiting time for all, N, and R patients = 0.995851, 0.585062, 0.410788
+Average total treatment time for all, N, and R patients = 1.49793, 0.775934, 0.721992
+Percentage of patients of an accepted cancellation (%) = 19.5122 %
+Percentage of patients of an accepted rescheduling (%) = 60.9756 %
+Percentage of early patients (%) = 51.2195 %
+Percentage of late patients (%) = 48.7805 %
 Average late penalty = 1 timestep(s)
-Percentage of Free Electro Device Failed (%) = 83.3333 %
-Percentage of Free UltraSonic Device Failed (%) = 100 %
-Total number of Busy failures for Electro Devices = 21
-Total number of Busy failures for UltraSonic Devices = 36
+Percentage of Free Electro Device Failed (%) = 100 %
+Percentage of Free UltraSonic Device Failed (%) = 80 %
+Total number of Busy failures for Electro Devices = 29
+Total number of Busy failures for UltraSonic Devices = 23

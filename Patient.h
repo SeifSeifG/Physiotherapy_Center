@@ -1,5 +1,23 @@
+/**
+ * @file Patient.h
+ * @brief Defines the Patient class representing patients in the treatment scheduling system.
+ *
+ * The Patient class encapsulates all relevant data and operations related to a patient,
+ * including their unique ID, type (NORMAL or RECOVERING), appointment and arrival times,
+ * queue of required treatments, current status, and timing statistics such as waiting
+ * and treatment durations. It supports adding treatments without duplication,
+ * updating patient status, tracking cancellations and rescheduling, and managing
+ * treatment completion.
+ *
+ * Patients are integral to the scheduling system, with methods for querying and
+ * modifying their treatment queues, as well as utility functions for sorting and
+ * output formatting. The class also manages state transitions and timing to
+ * facilitate simulation of patient flow through treatment resources.
+ *
+ * @author Abdelrahman Samir
+ * @date March 2025
+ */
 #pragma once
-
 #include "LinkedQueue.h"
 #include "Treatment.h"
 #include "E_Treatment.h"

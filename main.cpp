@@ -50,10 +50,10 @@ int main()
 	}
 
 	UI::DisplayResources(hospitalSystem);
-	UI::displayHistory(hospitalSystem);
+	UI::DisplayHistory(hospitalSystem);
 
 	// ====================== Final Status Report ======================
-	UI::displayFinalPatient(hospitalSystem);
+	UI::DisplayFinalPatient(hospitalSystem);
 
 	// ====================== Generate Output File ======================
 	Output outputHandler("Miscellinious_Test_2_output.txt");
